@@ -44,6 +44,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: my-docker-image:latest
+          tags: jorgeasmz/my-docker-image:latest
         env:
           STATE_NAME: ${{ env.STATE_NAME }}
